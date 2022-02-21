@@ -5,8 +5,7 @@ import types
 
 import pytest
 import tldextract.cache
-from tldextract.cache import (DiskCache, get_cache_dir,
-                              get_pkg_unique_identifier)
+from tldextract.cache import DiskCache, get_cache_dir, get_pkg_unique_identifier
 
 
 def test_disk_cache(tmpdir):
